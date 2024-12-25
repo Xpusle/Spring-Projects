@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <style>
+        * {
+            background-color: rgb(146, 187, 45);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            transform: scale(1.2);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        h1 {
+            animation: slideIn 1.5s ease-out;
+        }
+
+        p, ul {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        footer p {
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="https://github.com/Xpusle">GitHub</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section>
+            <article style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                <h1 style="text-align: center;">welcome to sidd's portfolio</h1>
+                <p>
+                    Hi, I'm Siddarth! I’m a passionate backend developer with a deep interest in creating robust and efficient backend
+                    systems that power seamless user experiences. Currently, I’m pursuing a diploma in Computer Science Engineering at
+                    BLDEA's SSM Polytechnic College in Vijayapur, where I’ve been honing my skills in software development and
+                    problem-solving.
+                    
+                    Over the course of my studies and personal projects, I’ve developed a strong focus on designing and implementing
+                    scalable backend architectures. My expertise lies in working with cutting-edge technologies like Java, Spring Boot, and
+                    MongoDB, as well as managing relational databases using XAMPP for MySQL. I thrive in tackling challenges like building
+                    APIs, optimizing data flow, and ensuring the backend operates smoothly to meet dynamic business needs.
+                    
+                    One of my most significant projects is developing a User Authentication System, a solution that emphasizes security and
+                    performance. This experience has not only deepened my technical knowledge but also taught me the importance of precision
+                    and efficiency in backend systems.
+                    
+                    I’m passionate about learning and continuously exploring new technologies to stay ahead in the ever-evolving world of
+                    software development. Beyond technical skills, I value collaboration and believe that teamwork is essential for creating
+                    impactful solutions.
+                    
+                    Whether it’s designing a robust API, integrating databases, or diving into new frameworks, I’m always excited to bring
+                    ideas to life through technology. If you’re looking for someone who’s driven, eager to learn, and committed to
+                    delivering exceptional results, let’s connect!
+                </p>
+                <h1 style="text-align: center;">More about ME 🤓✨</h1> <p style="text-align: justify;"> 👋 Hola, world! I’m Siddarth, your go-to coder with a knack for making computers obey… eventually. My secret weapon? A mix of sheer determination and a talent for blaming bugs on “system glitches.” </p> <p style="text-align: justify;"> 💻 My coding journey started with one dream: to automate away all my problems. Reality check? Turns out I accidentally automated more bugs into my life. Spring Boot doesn’t help either—it loves ghosting me when I need it most, but I’m not crying (yet). </p> <p style="text-align: justify;"> 🎮 When I’m not coding, I’m busy trying to convince my HP Victus laptop to cooperate. It has an RTX 3050, but it freezes up like me trying to talk to my crush. My ASUS TUF K1 keyboard clicks louder than my confidence level during live debugging—free concert, anyone? </p> <p style="text-align: justify;"> 🚀 My current masterpiece? A “User Authentication System.” Why? Because letting people log in and out of stuff feels more organized than my life will ever be. It’s my final-year project, but really, it’s just me trying to prove I can gatekeep better than Netflix. </p> <p style="text-align: justify;"> ❤️ Relationship status? Debugging. Turns out, fixing bugs is easier than fixing my love life. At least my code gets reviewed, unlike my texts. </p> <p style="text-align: justify;"> 😄 Fun fact? I avoid unnecessary if-else statements like bad Wi-Fi. Also, my AI buddy Ramesh deserves a raise for tolerating my endless, weird questions (and for not firing me as a user yet). </p> <p style="text-align: justify;"> 💡 Wanna work together? Awesome! But fair warning: I might pitch my idea for a thriller about user login attempts gone wrong—think “GET out,” but with APIs. Let’s make tech fun (or at least funny). 🎉 </p>
+                <ul>
+                    <li>Skills</li>
+                    <ul>
+                        <li>Programming Languages: Java  <b>(My trusty magic wand)</b></li>
+                        <li>Spring Boot, React (basic for login forms), XAMPP (for MySQL database management) <b>(The mysterious force I'm trying to master)</b></li>
+                        <li>Database Management: MongoDB, MySQL <b>(My digital dungeon master)</b></li>
+                        <li>Other Tools: GitHub  <b>(Find me at @Xpusle, if you dare)</b>, VS Code, Pop!_OS</li>
+                        <li>Soft Skills: Communication, Problem-solving, Teamwork</li>
+                    </ul>
+                    <li>Education</li>
+                    <ul>
+                        <li>Diploma in Computer Science Engineering
+                            BLDE A'S SSM Polytechnic College, Vijayapur</li>
+                    </ul>
+                    <li>Experience</li>
+                    <ul>
+                        <li>API Development: Developed multiple backend APIs using Java and Spring Boot for various use cases, including CRUD operations and user authentication.</li>
+                        <li>Projects: Currently working on a Vehicle Rental System project using Java and Spring Framework.</li>
+                    </ul>
+                    <li>My Projects</li>
+                    <ul>
+                        <li>User Authentication System</li>
+                        <ul>
+                            <li>Stack: Java, Spring Boot, MySQL</li>
+                            <li>A system to manage user authentication efficiently with features like user registration, login, role-based access control, and session management.</li>
+                        </ul>
+                        <li>Simple and user-friendly login form built using React for front-end exams.</li>
+                    </ul>
+                    <li>Interest's</li>
+                    <ul>
+                        <li>Playing video games</li>
+                        <li>Earning to build clean, scalable, and maintainable applications</li>
+                    </ul>
+                </ul>
+            </article>
+            <aside>
+               <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">My contact's</h1>
+               <ul style="list-style-type: none; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                   <li> 📱Phone number: +91 93536-43559</li>
+                   <li> 📧Email: siddarthkanamdi915@gmail</li>
+                   <li> 🖇️<a href="https://www.linkedin.com/in/siddarth-kanamdi" target="_blank" style="cursor: pointer; text-decoration: none; color: inherit;">Linkedin: Siddarth Kanamadi</li>
+                   <li> 💾<a href="https://github.com/Xpusle" target="_blank" style="cursor: pointer;text-decoration: none; color: inherit;">GitHub: Xpusle</a></li>
+               </ul>   
+            </aside>
+        </section>
+    </main> 
+    <footer>
+        <p style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">&copy; 2023 My Website. All rights reserved.</p>
+    </footer>  
+</body>
+</html>
