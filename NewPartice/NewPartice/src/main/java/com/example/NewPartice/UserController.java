@@ -17,6 +17,7 @@ public class UserController {
 	
 	@PostMapping("/login")
 	public String check(@ModelAttribute User user){
+		//string method and use model Attribute 
 		boolean checkuser=userservice.CheckUserThenAllowThem(user.getUsername(),user.getPassword());
 		if(checkuser) {
 			return "redirect:/sidd.html";
@@ -24,4 +25,5 @@ public class UserController {
 			return "redirect:/login.html";
 		}
 	}
+	//what Will happen if there are more than one user in the database with this method still work ??
 }
